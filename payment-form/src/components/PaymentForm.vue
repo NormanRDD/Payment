@@ -40,8 +40,10 @@ const submitForm = () => {
   if (!v$.value.$pending && !v$.value.$error) {
     // Form is valid, you can submit data
     console.log("Form submitted:", formData);
+    alert("Form submitted!");
   } else {
     console.error("Form is not valid. Please check your inputs.");
+    alert("Form is not valid. Please check your inputs.");
   }
 };
 const myTemplate = `
