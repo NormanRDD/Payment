@@ -2,15 +2,8 @@
   <PaymentForm />
 </template>
 
-<script>
-import PaymentForm from "./components/organisms/PaymentForm.vue";
-
-export default {
-  name: "App",
-  components: {
-    PaymentForm,
-  },
-};
+<script setup>
+import PaymentForm from "./components/PaymentForm.vue";
 </script>
 
 <style>
